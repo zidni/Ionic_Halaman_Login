@@ -1,0 +1,52 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<style type="text/css">
+::-webkit-input-placeholder {
+  color: white !important; 
+}
+:-moz-placeholder {
+  color: white !important; 
+}
+:-ms-input-placeholder {
+  /* IE10+ */
+  color: white !important; 
+}
+</style>
+
+<ion-content padding class="login" style="background-image:url('assets/imgs/BPRDmobileBG.jpeg');background-repeat: no-repeat;background-size: 100% 100%">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-4></ion-col>
+      <ion-col col-4 style="margin-left: auto;margin-right: auto;display: block;">
+        <img src="assets/imgs/logo.png" style="width:100%;height:auto;">
+      </ion-col>
+      <ion-col col-4></ion-col>
+    </ion-row>
+  </ion-grid>
+    
+    <div text-center style="text-align:center;font-weight:bold;margin-top:20px;color:white;font-size: 20px;">BPRD MOBILE</div>
+    <div text-center style="text-align:center;margin-top:20px;color:white;font-size: 15px;">Aplikasi pendukung informasi berbasis mobile<br> Badan Pajak dan Retribusi Daerah <br> Pemerintah Provinsi DKI Jakarta</div>
+    
+    
+  <ion-list class="list-form" style="margin-top:30px;margin-bottom: 30px">
+  	
+  	<ion-item style="padding:0px !important; border-bottom:none !important;border-top:none;font-size: 14px;margin-top:10px;background:none;border-bottom:1px solid white;box-shadow:none;">
+	    <ion-input style="color:white;border-bottom-color:white;box-shadow:none;" type="text" placeholder="Username"></ion-input>
+  	</ion-item>
+  	<ion-item style="padding:0px !important; font-size: 14px;margin-top:10px;background:none;border-bottom:1px solid white;box-shadow:none;">
+	    <ion-input style="color:white;border-bottom-color:white;box-shadow:none;" type="password" placeholder="Password"></ion-input>
+  	</ion-item>
+
+  </ion-list>
+
+  <button style="margin-top: 15px;height: 35px;font-size: 14px;background: #10ABF4;" ion-button  block  (click)="login()">Login</button>
+
+  <div text-center style="text-decoration: underline;margin-top:20px;color:white;font-size: 14px;"  (click)="forgotPwd()">Lupa Password</div>
+
+    
+</ion-content>
